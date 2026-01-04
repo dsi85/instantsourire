@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "lucide-react": "latest",
+    "clsx": "^2.1.0",
+    "tailwind-merge": "^2.2.0"
+  }
+}
+3.  **Sensibilité à la casse** : Vercel tourne sous Linux. Si vous avez un import comme `./app.jsx` au lieu de `./App.jsx`, cela fonctionnera en local (Windows/Mac) mais échouera sur Vercel.
